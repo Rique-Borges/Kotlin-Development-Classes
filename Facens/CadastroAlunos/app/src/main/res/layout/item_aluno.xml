@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#f2f2f2"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvNomeAluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Aluno"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRAAluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA do Aluno"
+        android:textSize="14sp"
+        android:textColor="#666666" />
+
+</LinearLayout>
