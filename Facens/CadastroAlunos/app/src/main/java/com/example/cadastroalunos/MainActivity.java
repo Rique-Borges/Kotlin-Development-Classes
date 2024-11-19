@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Função para salvar os dados do aluno
+    // Função para você salvar os dados do aluno
     private void salvarAluno() {
         String nome = edtNome.getText().toString();
         String raStr = edtRA.getText().toString();
